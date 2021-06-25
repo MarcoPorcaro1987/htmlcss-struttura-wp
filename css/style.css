@@ -33,7 +33,7 @@ header {
     margin: 30px 0;
 }
 
-.head {
+.barra-superiore {
     height: 80px;
     background-color: #ABCFE7;
 }
@@ -58,4 +58,10 @@ header {
 .col-center {
     margin: 25px 20px;
     width: calc(50% - 40px) ;
+}
+
+footer {
+    height: 60px;
+    background-color: #8801FE;
+    margin-bottom: 25px;
 }
