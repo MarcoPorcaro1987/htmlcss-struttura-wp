@@ -30,7 +30,7 @@ header {
 
 .seconda-sezione {
     background-color: #0186FF;
-    margin: 30px 0;
+    margin-bottom: 10px;
 }
 
 .barra-superiore {
@@ -59,6 +59,8 @@ header {
     margin: 25px 20px;
     width: calc(50% - 40px) ;
 }
+
+/*Footer*/
 
 footer {
     height: 60px;
