@@ -11,16 +11,23 @@
     width: 75%;
 }
 
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 /*Header*/
 
 header {
     background-color: #E579E6;
     height: 130px;
+    margin-top: 25px;
 }
 
 /*Prima Sezione*/
 
-.prima-sezione {
+.hero {
     background-color: #E1D67A;
     margin: 30px 0;
     height: 550px;
@@ -28,20 +35,14 @@ header {
 
 /*Seconda Sezione*/
 
-.seconda-sezione {
+.leadership {
     background-color: #0186FF;
     margin-bottom: 10px;
 }
 
-.barra-superiore {
+.leadership-title {
     height: 80px;
     background-color: #ABCFE7;
-}
-
-.clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
 }
 
 .col-left, .col-center, .col-right {
